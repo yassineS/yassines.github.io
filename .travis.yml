@@ -9,7 +9,6 @@ script: scripts/build.sh
 branches:
   only:
   - gh-pages     # test the gh-pages branch
-  - master
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
 env:
