@@ -1,10 +1,12 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Switching to Jekyll!"
 date:   2013-11-10 10:18:00
-description: Thriller Comedy Horror
+description: How to get started with Jekyll
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+I have tried a multitude of blogging platforms before, from wordpress to tumbler and going through ghost, hubpress and others. However, none gives you the freedom and the pleasure of a version control as powerful as `git`. I couple this setup with a deployment using Travis CI and the Atom text editor by GitHub and the power and reliability of GitHub's pages hosting, and I end up with a pretty free, total control and top freedom with my blog. The backbone of this blog is powered by Jekyll, and to create a similar blog, you can simply clone this repository.
+
+You'll find the posts -including this one- in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
 Jekyll also offers powerful support for code snippets:
@@ -21,3 +23,5 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+###Enjoy!
