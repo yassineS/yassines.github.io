@@ -1,4 +1,7 @@
-# Cactus Theme for Jekyll
+# My Personal Blog: Yassine Souilmi
+
+This Blog is based on the Cactus theme for Jekyll
+## Cactus Theme for Jekyll
 
 This is a port of [Cactus](https://github.com/koenbok/Cactus)'s default theme for Jekyll.
 Feel free to fork, change, modify and re-use it.
