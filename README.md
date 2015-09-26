@@ -1,9 +1,12 @@
+
+[![Join the chat at https://gitter.im/yassineS/yassines.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yassineS/yassines.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Build Status](https://travis-ci.org/yassineS/yassines.github.io.svg)](https://travis-ci.org/yassineS/yassines.github.io)
+
 # My Personal Blog: Yassine Souilmi
 
 This Blog is based on the Cactus theme for Jekyll
 ## Cactus Theme for Jekyll
-
-[![Join the chat at https://gitter.im/yassineS/yassines.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yassineS/yassines.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is a port of [Cactus](https://github.com/koenbok/Cactus)'s default theme for Jekyll.
 Feel free to fork, change, modify and re-use it.
