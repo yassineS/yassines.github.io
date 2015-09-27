@@ -19,6 +19,7 @@ env:
 deploy:
   skip_cleanup: true
   provider: script
+  api_key: "74a40f1c90b0fc332bf3af54cf9c2a53ccdc67a2"
   script: scripts/deploy.sh
   on:
     branch: gh-pages
