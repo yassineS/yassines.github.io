@@ -16,19 +16,19 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: scripts/deploy.sh
+  on:
+    branch: gh-pages
 #deploy:
-#  skip_cleanup: true
-#  provider: script
-#  script: scripts/deploy.sh
+#  provider: releases
+#  api_key: "74a40f1c90b0fc332bf3af54cf9c2a53ccdc67a2"
+#  file: "FILE TO UPLOAD"
+#  skip_cleanup: false
 #  on:
 #    branch: master
-deploy:
-  provider: releases
-  api_key: "74a40f1c90b0fc332bf3af54cf9c2a53ccdc67a2"
-  file: "FILE TO UPLOAD"
-  skip_cleanup: false
-  on:
-    branch: master
 
 notifications:
   email:
@@ -47,7 +47,7 @@ notifications:
   slack:
 
     rooms:
-      - biostandards:sWYxFbqTh8MdyTeZkC7ZisgN#travis-ci
+      - biostandards:sWYxFbqTh8MdyTeZkC7ZisgN#blog
 
     on_success: always  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
