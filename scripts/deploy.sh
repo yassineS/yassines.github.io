@@ -12,7 +12,7 @@ if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
 
 
   git remote add origin https://github.com/yassineS/yassines.github.io.git
-  git push --force --quiet origin master
+  git push origin master
 else
   echo 'Invalid branch. You can only deploy from gh-pages.'
   exit 1
