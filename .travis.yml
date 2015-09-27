@@ -10,7 +10,8 @@ branches:
   only:
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
-
+  tags: false
+  all_branches: true
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
@@ -21,6 +22,8 @@ deploy:
   script: scripts/deploy.sh
   on:
     branch: master
+
+
 notifications:
   email:
     recipients:
