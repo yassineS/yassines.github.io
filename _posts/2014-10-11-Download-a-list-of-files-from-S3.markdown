@@ -18,11 +18,11 @@ s3getlist takes as input a list of files on S3 (full path) in text format and do
 ### Install:
 To install s3getlist you need to download the repository on your machine and run the INSTALL script with admin access:
 
-```
- git clone git@github.com:yassineS/s3getlist
- cd s3getlist
- sudo ./INSTALL
-```
+{% highlight bash %}
+git clone git@github.com:yassineS/s3getlist
+cd s3getlist
+sudo ./INSTALL
+{% endhighlight %}
 
 During the installation process you will need to configure the s3cmd:
 
@@ -39,7 +39,8 @@ Please note: - both the above mentioned forms of encryption are independent on e
 ### Use s3getlist:
 It is very simple to use and consists of a single command. The syntax is the following:
 
-```
+{% highlight bash %}
  s3getlist /path/to/the/file/list /path/of/destination
-```
+{% endhighlight %}
+
 Enjoy!
