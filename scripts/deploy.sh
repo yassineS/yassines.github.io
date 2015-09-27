@@ -1,8 +1,6 @@
 #!/bin/bash
 
 if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
-  cd _site
-  git init
 
   git config user.name "yassineS"
   git config user.email "yassinesouilmi@gmail.com"
@@ -15,7 +13,7 @@ if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
   #git push origin master
 
   #git push --force --quiet "https://${git_user}:${git_password}@${git_target}" master:master > /dev/null 2>&1
-  git push --force --quiet "https://${git_user}:${git_password}@${git_target}" master:master 
+  git push --force --quiet "https://${git_user}:${git_password}@${git_target}" $TRAVIS_BRANCH:master
 
 else
   echo 'Invalid branch. You can only deploy from gh-pages.'
