@@ -7,6 +7,10 @@ aboutPage: true
 markdown: redcarpet
 highlighter: pygments
 
+# adding support of emoji
+gems:
+  - jemoji
+
 paginate: 20
 baseurl: /
 domain_name: 'http://yassines.github.io/'
