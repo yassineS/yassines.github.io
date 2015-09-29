@@ -8,8 +8,8 @@ markdown: redcarpet
 highlighter: pygments
 
 # adding support of emoji
-gems:
-  - jemoji
+#gems:
+#  - jemoji
 
 paginate: 20
 baseurl: /
