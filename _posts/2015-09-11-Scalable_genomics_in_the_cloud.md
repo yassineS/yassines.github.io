@@ -1,5 +1,5 @@
 ---
-title: "Cost-effectiveness genomics analysis"
+title: "Cost-effective genomics analysis"
 date:   2015-11-09
 description: Quantifying cost-effectiveness of scientific cloud computing in genomics and beyond
 ---
