@@ -1,7 +1,30 @@
+# Hugo configuration file
+# This file is used to configure the Hugo static site generator
+# For more information, see: https://gohugo.io/documentation/configuration/
+# This is a YAML configuration file for Hugo
+
+# Base configuration
 baseURL: 'ysouilmi.com'
 languageCode: 'en-us'
 title: 'Yassine Souilmi'
 
-module:
-  imports:
-    - path: github.com/imfing/hextra
+# Theme
+theme: hextra
+
+# Menu
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+
