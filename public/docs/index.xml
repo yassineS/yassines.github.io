@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yassine Souilmi – Docs</title>
-    <link>//localhost:1313/docs/</link>
-    <description>Recent content in Docs on Yassine Souilmi</description>
+    <title>Hextra – Docs</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on Hextra</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sun, 13 Apr 2025 20:39:12 +0930</lastBuildDate>
     
-	  <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
