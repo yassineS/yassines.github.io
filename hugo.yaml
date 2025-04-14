@@ -11,18 +11,9 @@ title: 'Yassine Souilmi'
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
-hasCJKLanguage: true
-
 
 # Theme
 theme: hextra
-
-# Configuration
-enableRobotsTXT: true
-# Parse Git commit
-enableGitInfo: true
-enableEmoji: true
-hasCJKLanguage: true
 
 # services:
 #   googleAnalytics:
@@ -41,6 +32,9 @@ module:
   hugoVersion:
     extended: true
     min: "0.146.0"
+    
+  imports:
+    - path: github.com/imfing/hextra
 
   # workspace: hugo.work
   imports:
@@ -63,35 +57,34 @@ enableInlineShortcodes: true
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 1
     - identifier: about
       name: About
       pageRef: /about
-      weight: 1
+      weight: 2
     - identifier: blog
       name: Blog
       pageRef: /blog
-      weight: 2
+      weight: 3
     - identifier: wiki
       name: Wiki
       pageRef: /wiki
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
 
-  sidebar:
-    - identifier: wiki
-      name: Wiki
-      pageRef: /wiki
-      weight: 1
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: Modern, responsive, personal, website for Yassine Souilmi.
 
   navbar:
     displayTitle: true
-    displayLogo: true
+    displayLogo: false
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
