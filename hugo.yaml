@@ -63,17 +63,17 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: wiki
-      name: Wiki
-      pageRef: /wiki
+    - identifier: about
+      name: About
+      pageRef: /about
       weight: 1
     - identifier: blog
       name: Blog
       pageRef: /blog
       weight: 2
-    - identifier: about
-      name: About
-      pageRef: /about
+    - identifier: wiki
+      name: Wiki
+      pageRef: /wiki
       weight: 3
     - name: Search
       weight: 4
@@ -112,8 +112,8 @@ params:
   footer:
     enable: true
     displayCopyright: true
-    displayPoweredBy: true
-    width: normal
+    displayPoweredBy: false
+    width: thin
 
   # Display the last modification date
   displayUpdatedDate: true
@@ -132,10 +132,6 @@ params:
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
 
-  editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
-
   blog:
     list:
       displayTags: true
@@ -151,22 +147,6 @@ params:
       enable: true
       # hover | always
       display: hover
-
-  comments:
-    enable: false
-    # type: giscus
-
-    # # https://giscus.app/
-    # giscus:
-    #   repo: imfing/hextra
-    #   repoId: R_kgDOJ9fJag
-    #   category: General
-    #   categoryId: DIC_kwDOJ9fJas4CY7gW
-    #   # mapping: pathname
-    #   # strict: 0
-    #   # reactionsEnabled: 1
-    #   # emitMetadata: 0
-    #   # inputPosition: top
-    #   # lang: en
-    #   # theme: noborder_dark
+    lineNumbers: true
+    lineNumbersInTable: true
 
