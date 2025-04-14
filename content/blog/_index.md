@@ -1,5 +1,4 @@
-+++
-date = '2025-04-13T21:02:35+09:30'
-draft = false
-title = 'Blog'
-+++
+---
+title: About
+toc: false
+---

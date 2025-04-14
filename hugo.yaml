@@ -28,6 +28,10 @@ hasCJKLanguage: true
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 outputs:
   home: [HTML]
   page: [HTML]
@@ -72,24 +76,15 @@ menu:
       pageRef: /about
       weight: 3
     - name: Search
-      weight: 5
+      weight: 4
       params:
         type: search
 
   sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
+    - identifier: wiki
+      name: Wiki
+      pageRef: /wiki
       weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
