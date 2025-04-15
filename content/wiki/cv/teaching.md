@@ -1,5 +1,5 @@
 ---
-title: 'Teaching and Capacity Building'
+title: Teaching and Capacity Building
 layout: docs
 weight: 3
 ---
