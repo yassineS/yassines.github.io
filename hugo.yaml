@@ -31,8 +31,7 @@ outputs:
 module:
   hugoVersion:
     extended: true
-    min: "0.146.0"
-    
+    min: "0.164.0"
   imports:
     - path: github.com/imfing/hextra
 
@@ -65,9 +64,9 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 3
-    - identifier: wiki
+    - identifier: docs
       name: Wiki
-      pageRef: /wiki
+      pageRef: /docs
       weight: 4
     - name: Search
       weight: 5
