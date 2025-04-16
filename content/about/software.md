@@ -1,6 +1,6 @@
 ---
 title: Software
-layout: docs
+# layout: docs
 sidebar:
   open: true
 ---

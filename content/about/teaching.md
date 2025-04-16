@@ -1,6 +1,6 @@
 ---
 title: Teaching and Capacity Building
-layout: docs
+# layout: docs
 sidebar:
   open: true
 ---

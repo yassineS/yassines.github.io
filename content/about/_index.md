@@ -1,6 +1,9 @@
 ---
 title: About
+layout: docs
 toc: false
+sidebar:
+  open: true
 ---
 
 I am a research scholar of North African decent, born in Morocco with a mix of native Amazigh heritage. I currently work and live in Tarntanyangga on the banks of Karrawirra Parri in Kaurna country (Adelaide, South Australia). 

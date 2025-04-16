@@ -1,6 +1,6 @@
 ---
 title: Employment history
-layout: docs
+# layout: docs
 sidebar:
   open: true
 ---
