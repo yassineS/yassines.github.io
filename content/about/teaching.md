@@ -1,10 +1,16 @@
 ---
 title: Teaching and Capacity Building
-# layout: docs
+toc: true
 sidebar:
   open: true
 ---
- 
+
+
+I am actively involved in teaching and collaborative research in genomics education.
+
+
+[![Genomics Our Way Course Banner](../../assets/images/genomics_our_way_banner.png)](https://indigenousgenomics.com.au/courses/genomicsourway)
+
 ## Teaching
 ### 2020-2022: Graph Pangenomes, BIONF3010 & BIONF7150, The University of Adelaide, Australia
 - Covering theoretical and practical concepts of graph-pangenomes, a cutting-edge technology pegged to be the next iteration of the human reference genome by the Human Genome Reference Consortium.
