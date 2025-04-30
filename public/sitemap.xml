@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/docs/cv/</loc>
-  </url><url>
     <loc>//localhost:1313/docs/teaching/</loc>
   </url><url>
     <loc>//localhost:1313/docs/genomics/</loc>
@@ -22,23 +20,33 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/outreach/conferences/</loc>
+    <loc>//localhost:1313/about/outreach/conferences/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/experience/</loc>
+    <loc>//localhost:1313/about/experience/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/outreach/media/</loc>
+    <loc>//localhost:1313/docs/genomics/gwas/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/other/</loc>
+    <loc>//localhost:1313/docs/genomics/gwas/datasets/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/outreach/</loc>
+    <loc>//localhost:1313/docs/genomics/gwas/tools/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/outreach/public/</loc>
+    <loc>//localhost:1313/docs/tools/ml/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/software/</loc>
+    <loc>//localhost:1313/about/outreach/media/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/other/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/outreach/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/outreach/public/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/research/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/software/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/cv/teaching/</loc>
+    <loc>//localhost:1313/about/teaching/</loc>
   </url><url>
     <loc>//localhost:1313/docs/</loc>
   </url>

@@ -2,12 +2,6 @@
 	color: #c97c2e;
   }
 
-:root {
-	--primary-hue: 100deg;
-	--primary-saturation: 90%;
-	--primary-lightness: 50%;
-  }
-
 .hextra-footer {
 	/* Styles will be applied to the footer element */
   }
