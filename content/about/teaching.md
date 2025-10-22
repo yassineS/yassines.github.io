@@ -9,7 +9,7 @@ sidebar:
 I am actively involved in teaching and collaborative research in genomics education.
 
 
-[![Genomics Our Way Course Banner](../../assets/images/genomics_our_way_banner.png)](https://indigenousgenomics.com.au/courses/genomicsourway)
+[![Genomics Our Way Course Banner](/assets/images/genomics_our_way_banner.png)](https://indigenousgenomics.com.au/courses/genomicsourway)
 
 ## Teaching
 ### 2020-2022: Graph Pangenomes, BIONF3010 & BIONF7150, The University of Adelaide, Australia
