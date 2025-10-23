@@ -1,18 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Yassine Souilmi – Genomics</title>
-    <link>ysouilmi.com/docs/genomics/</link>
-    <description>Recent content in Genomics on Yassine Souilmi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	  <atom:link href="ysouilmi.com/docs/genomics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yassine Souilmi – Genomics</title><link>https://www.ysouilmi.com/docs/genomics/</link><description>Recent content in Genomics on Yassine Souilmi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.ysouilmi.com/docs/genomics/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
