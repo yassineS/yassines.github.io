@@ -10,7 +10,7 @@ I am actively involved in teaching and collaborative research in genomics educat
 
 
 #[
-![Genomics Our Way Course Banner](../../assets/images/genomics_our_way_banner.png)
+![Genomics Our Way Course Banner](/images/genomics_our_way_banner.png)
 #(https://indigenousgenomics.com.au/courses/genomicsourway)
 
 ## Teaching
