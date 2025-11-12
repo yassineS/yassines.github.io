@@ -12,6 +12,12 @@ My research sits at the intersection of medical and evolutionary genomics. I use
 - **Viral-Human Co-evolution**: Investigating how ancient viral epidemics have shaped human genetics, including my work on coronavirus-interacting genes more than 20,000 years ago in East Asia.
 - **Bioinformatics and Computational Methods**: Developing reproducible bioinformatics workflows for genomic analysis, particularly for ancient DNA and across heterogeneous computing environments.
 
+<a href="https://orcid.org/0000-0001-7543-4864" aria-label="View ORCID record">
+  <img src="/ORCID-iD_icon-vector.svg" alt="ORCID iD"/>
+  https://orcid.org/0000-0001-7543-4864
+</a>
+
+
 ## Selected Publications
 
 My research has been published in prestigious journals including Science, Current Biology, Nature Ecology & Evolution, and PNAS:
@@ -37,3 +43,5 @@ My research has been published in prestigious journals including Science, Curren
 9. Cooper, A. et al. A global environmental crisis 42,000 years ago. Science 371, 811–818 (2021).
 
 10. Souilmi, Y. et al. An ancient viral epidemic involving host coronavirus interacting genes more than 20,000 years ago in East Asia. Curr. Biol. 31, 3704 (2021).
+
+
