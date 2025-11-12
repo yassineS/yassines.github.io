@@ -1,5 +1,6 @@
 ---
 title: Employment history
+weight: 1
 # layout: docs
 sidebar:
   open: true
