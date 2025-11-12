@@ -1,0 +1,238 @@
+<!-- ORCID Publications Shortcode -->
+<div id="orcid-publications" class="orcid-publications-container">
+  <div class="loading-state">
+    <p>Loading publications from ORCID...</p>
+  </div>
+  <div class="publications-list" style="display: none;"></div>
+  <div class="error-state" style="display: none;">
+    <p>Unable to load publications from ORCID. Please try again later.</p>
+  </div>
+</div>
+
+<style>
+.orcid-publications-container {
+  margin: 2rem 0;
+}
+
+.publication-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.publication-journal {
+  font-style: italic;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.publication-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.publication-year {
+  color: #6b7280;
+}
+
+.publication-type {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+.publication-doi {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.publication-doi:hover {
+  text-decoration: underline;
+}
+
+.loading-state, .error-state {
+  padding: 2rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.publication-number {
+  font-weight: 600;
+  color: #6b7280;
+  margin-right: 0.5rem;
+}
+</style>
+
+<script>
+(function() {
+  const ORCID_ID = '{{ .Get "orcid" | default "0000-0001-7543-4864" }}';
+  const API_URL = `https://pub.orcid.org/v3.0/${ORCID_ID}/works`;
+  
+  const container = document.getElementById('orcid-publications');
+  const loadingState = container.querySelector('.loading-state');
+  const publicationsList = container.querySelector('.publications-list');
+  const errorState = container.querySelector('.error-state');
+
+  // Parse XML response from ORCID API
+  function parseORCIDWorks(xmlDoc) {
+    const works = [];
+    const workGroups = xmlDoc.querySelectorAll('work-summary');
+    
+    workGroups.forEach(workSummary => {
+      const work = {};
+      
+      // Title
+      const titleElement = workSummary.querySelector('title title');
+      work.title = titleElement ? titleElement.textContent.trim() : 'Untitled';
+      
+      // Year
+      const yearElement = workSummary.querySelector('publication-date year');
+      work.year = yearElement ? parseInt(yearElement.textContent) : null;
+      
+      // Month
+      const monthElement = workSummary.querySelector('publication-date month');
+      work.month = monthElement ? parseInt(monthElement.textContent) : null;
+      
+      // Journal/Container
+      const journalElement = workSummary.querySelector('journal-title');
+      work.journal = journalElement ? journalElement.textContent.trim() : null;
+      
+      // Type
+      const typeElement = workSummary.querySelector('type');
+      work.type = typeElement ? typeElement.textContent.trim() : null;
+      
+      // External IDs (DOI, etc.)
+      const externalIds = workSummary.querySelectorAll('external-id');
+      work.doi = null;
+      work.pmid = null;
+      
+      externalIds.forEach(extId => {
+        const idType = extId.querySelector('external-id-type');
+        const idValue = extId.querySelector('external-id-value');
+        if (idType && idValue) {
+          const type = idType.textContent.toLowerCase();
+          const value = idValue.textContent.trim();
+          if (type === 'doi') {
+            work.doi = value;
+          } else if (type === 'pmid') {
+            work.pmid = value;
+          }
+        }
+      });
+      
+      // URL
+      const urlElement = workSummary.querySelector('url');
+      work.url = urlElement ? urlElement.textContent.trim() : null;
+      
+      // Only add works with valid years (filter out preprints without dates)
+      if (work.year) {
+        works.push(work);
+      }
+    });
+    
+    // Sort by year (descending), then by month
+    works.sort((a, b) => {
+      if (a.year !== b.year) {
+        return b.year - a.year;
+      }
+      return (b.month || 0) - (a.month || 0);
+    });
+    
+    return works;
+  }
+
+  function formatPublicationType(type) {
+    if (!type) return '';
+    
+    const typeMap = {
+      'journal-article': 'Journal Article',
+      'conference-paper': 'Conference Paper',
+      'book-chapter': 'Book Chapter',
+      'preprint': 'Preprint',
+      'dissertation-thesis': 'Thesis',
+      'book': 'Book',
+      'other': 'Other'
+    };
+    
+    return typeMap[type.toLowerCase()] || type;
+  }
+
+  function renderPublications(works) {
+    if (works.length === 0) {
+      publicationsList.innerHTML = '<p>No publications found.</p>';
+      return;
+    }
+    
+    let html = '';
+    works.forEach((work, index) => {
+      html += `
+        <div class="publication-item">
+          <div>
+            <span class="publication-number">${index + 1}.</span>
+            <span class="publication-title">${escapeHtml(work.title)}</span>
+          </div>
+          ${work.journal ? `<div class="publication-journal">${escapeHtml(work.journal)}</div>` : ''}
+          <div class="publication-meta">
+            ${work.year ? `<span class="publication-year">${work.year}</span>` : ''}
+            ${work.type ? `<span class="publication-type">${formatPublicationType(work.type)}</span>` : ''}
+            ${work.doi ? `<a href="https://doi.org/${work.doi}" class="publication-doi" target="_blank" rel="noopener">DOI: ${escapeHtml(work.doi)}</a>` : 
+              work.url ? `<a href="${escapeHtml(work.url)}" class="publication-doi" target="_blank" rel="noopener">View Publication</a>` : ''}
+          </div>
+        </div>
+      `;
+    });
+    
+    publicationsList.innerHTML = html;
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // Fetch publications from ORCID API
+  fetch(API_URL, {
+    headers: {
+      'Accept': 'application/xml'
+    }
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to fetch publications');
+      }
+      return response.text();
+    })
+    .then(xmlText => {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+      const works = parseORCIDWorks(xmlDoc);
+      
+      loadingState.style.display = 'none';
+      publicationsList.style.display = 'block';
+      renderPublications(works);
+    })
+    .catch(error => {
+      console.error('Error fetching ORCID publications:', error);
+      loadingState.style.display = 'none';
+      errorState.style.display = 'block';
+    });
+})();
+</script>
