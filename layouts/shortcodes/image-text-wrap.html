@@ -2,8 +2,23 @@
 {{- $alt := .Get "alt" | default "Image" -}}
 {{- $width := .Get "width" | default "150px" -}}
 {{- $gap := .Get "gap" | default "50px" -}}
-{{- $id := .Get "id" | default (printf "modal-%s" (md5 $src)) -}}
 {{- $content := .Inner -}}
+
+{{/* Check if src is a relative path (no leading /) - if so, look in page bundle */}}
+{{- $imagePath := $src -}}
+{{- if not (hasPrefix $src "/") -}}
+  {{/* Try to get from page resources first */}}
+  {{- with .Page.Resources.GetMatch $src -}}
+    {{- $imagePath = .RelPermalink -}}
+  {{- else -}}
+    {{/* Fallback to global resources if not in page bundle */}}
+    {{- with resources.Get (printf "images/%s" $src) -}}
+      {{- $imagePath = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $id := .Get "id" | default (printf "modal-%s" (md5 $imagePath)) -}}
 
 <style>
 #{{ $id }} {
@@ -41,7 +56,7 @@
 
 <div style="display: flex; gap: {{ $gap }}; align-items: flex-start;">
   <div style="flex: 0 0 {{ $width }};">
-    <img src="{{ $src }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="Click to view full size" onclick="document.getElementById('{{ $id }}').style.display='block'">
+    <img src="{{ $imagePath }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="Click to view full size" onclick="document.getElementById('{{ $id }}').style.display='block'">
   </div>
   <div style="flex: 1;">
     {{ $content | markdownify }}
@@ -50,5 +65,5 @@
 
 <div id="{{ $id }}" onclick="this.style.display='none'">
   <span class="close-modal">&times;</span>
-  <img class="modal-content" src="{{ $src }}" alt="{{ $alt }}">
+  <img class="modal-content" src="{{ $imagePath }}" alt="{{ $alt }}">
 </div>
