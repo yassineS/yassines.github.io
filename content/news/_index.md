@@ -1,7 +1,8 @@
 ---
-title: News
-layout: docs
-toc: false
+title: 
+type: blog
+sidebar:
+  exclude: true
 ---
 
-Latest updates and announcements.
+
