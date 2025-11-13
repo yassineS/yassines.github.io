@@ -68,8 +68,11 @@ menu:
       name: Wiki
       pageRef: /docs
       weight: 4
-    - name: Search
+    - name: News
       weight: 5
+      pageRef: /news
+    - name: Search
+      weight: 6
       params:
         type: search
 
