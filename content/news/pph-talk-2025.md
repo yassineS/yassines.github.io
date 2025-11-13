@@ -4,7 +4,7 @@ date: 2025-11-13
 draft: false
 ---
 
-{{< image-text-wrap src="/images/pph-conference-poster.png" alt="Conference Poster" width="150px" gap="50px" >}}
+{{< image-text-wrap src="pph-conference-poster.png" alt="Conference Poster" width="150px" gap="50px" >}}
 I'll be co-presenting an invited talk at the Precision Public Health Transdisciplinary Conference 2025 (PPHTC2025), hosted by the Human Genetics Society of Australasia. This conference brings together researchers, clinicians, and public health professionals to explore cutting-edge advances in precision public health.
 
 The conference will focus on transdisciplinary approaches to precision public health, including genomics, data science, and population health strategies. It's an excellent opportunity to share insights and collaborate with experts across multiple disciplines working to improve public health outcomes through precision medicine.
