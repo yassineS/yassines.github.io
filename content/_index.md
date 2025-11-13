@@ -36,3 +36,5 @@ My name is Yassine Souilmi, PhD., MS. I am a Fulbright alumnus and an accomplish
 </div>
 
 {{< /hextra/hero-container >}}
+
+{{< news-feed limit="2" >}}
