@@ -8,6 +8,11 @@ baseURL: 'ysouilmi.com'
 languageCode: 'en-us'
 title: 'Yassine Souilmi'
 
+# Required by Hextra RSS template (list.rss.xml)
+author:
+  name: Yassine Souilmi
+  email: works@ysouilmi.com
+
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
@@ -79,6 +84,11 @@ menu:
 
 params:
   description: Modern, responsive, personal, website for Yassine Souilmi.
+
+  # RSS / theme author (used by Hextra list.rss.xml)
+  Author:
+    name: Yassine Souilmi
+    email: yassine.souilmi@adelaide.edu.au
 
   navbar:
     displayTitle: true
