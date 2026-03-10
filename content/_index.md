@@ -10,7 +10,8 @@ sidebar:
 
 My name is Yassine Souilmi, PhD., MS. I am a Fulbright alumnus and an accomplished research scientist. I have made significant contributions to the fields of bioinformatics, evolutionary genomics, evolutionary medicine, and genomics with peer-reviewed publications in the top specialised bioinformatics journals and multidisciplinary research targeting a broader audience, with my contributions appearing in high-profile journals such as Nature Ecology and Evolutions, Current Biology, Science, the Lancet, and PNAS. I contributed to the earliest efforts (since 2012) to deploy genomic analysis workloads on complicated cloud computing infrastructure.
 
-<div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+<!-- markdownlint-disable MD033 -->
+<div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: nowrap; align-items: center;">
   <a href="https://scholar.google.com/citations?hl=en&pli=1&user=2XBVxcsAAAAJ" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background-color: #4285f4; color: white; text-decoration: none; border-radius: 0.375rem; font-weight: 500; transition: background-color 0.2s;">
     <svg style="width: 1.25rem; height: 1.25rem;" viewBox="0 0 24 24" fill="currentColor">
       <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
@@ -34,6 +35,7 @@ My name is Yassine Souilmi, PhD., MS. I am a Fulbright alumnus and an accomplish
     ORCID
   </a>
 </div>
+<!-- markdownlint-enable MD033 -->
 
 {{< /hextra/hero-container >}}
 
