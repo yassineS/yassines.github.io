@@ -7,11 +7,7 @@
 baseURL: 'ysouilmi.com'
 languageCode: 'en-us'
 title: 'Yassine Souilmi'
-
-# Required by Hextra RSS template (list.rss.xml)
-author:
-  name: Yassine Souilmi
-  email: works@ysouilmi.com
+email: works@ysouilmi.com
 
 enableRobotsTXT: true
 enableGitInfo: false
