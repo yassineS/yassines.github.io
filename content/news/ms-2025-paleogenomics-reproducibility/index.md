@@ -1,6 +1,6 @@
 ---
 title: "New Publication: Lessons Learned - Recommendations for Reproducible Paleogenomic Data Analyses"
-date: 2025-11-05
+date: 2025-12-05
 draft: false
 ---
 
