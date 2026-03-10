@@ -3,6 +3,7 @@
 {{- $width := .Get "width" | default "150px" -}}
 {{- $gap := .Get "gap" | default "50px" -}}
 {{- $content := .Inner -}}
+{{- $link := .Get "link" -}}
 
 {{/* Check if src is a relative path (no leading /) - if so, look in page bundle */}}
 {{- $imagePath := $src -}}
@@ -56,14 +57,22 @@
 
 <div style="display: flex; gap: {{ $gap }}; align-items: flex-start;">
   <div style="flex: 0 0 {{ $width }};">
-    <img src="{{ $imagePath }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="Click to view full size" onclick="document.getElementById('{{ $id }}').style.display='block'">
+    {{- if $link -}}
+      <a href="{{ $link }}">
+        <img src="{{ $imagePath }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="View details">
+      </a>
+    {{- else -}}
+      <img src="{{ $imagePath }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="Click to view full size" onclick="document.getElementById('{{ $id }}').style.display='block'">
+    {{- end -}}
   </div>
   <div style="flex: 1;">
     {{ $content | markdownify }}
   </div>
 </div>
 
-<div id="{{ $id }}" onclick="this.style.display='none'">
-  <span class="close-modal">&times;</span>
-  <img class="modal-content" src="{{ $imagePath }}" alt="{{ $alt }}">
-</div>
+{{- if not $link -}}
+  <div id="{{ $id }}" onclick="this.style.display='none'">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" src="{{ $imagePath }}" alt="{{ $alt }}">
+  </div>
+{{- end -}}
