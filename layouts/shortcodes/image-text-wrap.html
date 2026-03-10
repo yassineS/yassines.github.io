@@ -4,6 +4,7 @@
 {{- $gap := .Get "gap" | default "50px" -}}
 {{- $content := .Inner -}}
 {{- $link := .Get "link" -}}
+{{- $target := .Get "target" | default "" -}}
 
 {{/* Check if src is a relative path (no leading /) - if so, look in page bundle */}}
 {{- $imagePath := $src -}}
@@ -58,7 +59,7 @@
 <div style="display: flex; gap: {{ $gap }}; align-items: flex-start;">
   <div style="flex: 0 0 {{ $width }};">
     {{- if $link -}}
-      <a href="{{ $link }}">
+      <a href="{{ $link }}"{{ if $target }} target="{{ $target }}" rel="noopener"{{ end }}>
         <img src="{{ $imagePath }}" alt="{{ $alt }}" style="width: {{ $width }}; height: auto; cursor: pointer;" title="View details">
       </a>
     {{- else -}}
