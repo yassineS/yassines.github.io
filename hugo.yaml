@@ -33,8 +33,7 @@ module:
   hugoVersion:
     extended: true
     min: "0.152.0"
-  imports:
-    - path: github.com/imfing/hextra
+  # Theme loaded from themes/hextra (git submodule) instead of Go module
 
 markup:
   highlight:
