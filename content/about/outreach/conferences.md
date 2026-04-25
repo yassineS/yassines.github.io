@@ -1,16 +1,25 @@
 ---
 title: Conference Talks and Posters
-# weight: 4
+weight: 2
 layout: docs
 sidebar:
   open: true
 ---
 
-I have given talks and presented posters at major international and regional conferences, including:
-- Intelligent Systems for Molecular Biology (ISMB) conference 
-- Society of Molecular Biology and Evolution (SMBE) annual conference
-- American Society for Human Genetics annual meeting (ASHG). 
+Talks and posters at international and regional scientific meetings.
 
-I have given over 20 invited talks at meetings and international conferences, including: 
-- International Society for Biological and Environmental Repositories (ISBER) Annual Meeting & Exhibits, Shanghai, China
-- International Society on Thrombosis and Haemostasis (ISTH) 2019 Congress, Melbourne, Australia.
+## 2025
+
+- **Precision Public Health Transdisciplinary Conference 2025 (PPHTC2025)** — co-presented invited talk *"'Genomics Our Way': Indigenous Genomics Education in the Era of Precision Public Health"*. Hosted by the Human Genetics Society of Australasia. 19 November 2025. [Programme](https://hgsa.org.au/CancerGenetics/iCore/Events/Event_display.aspx?EventKey=PPHTC2025).
+
+## 2019
+
+- **International Society on Thrombosis and Haemostasis (ISTH) Congress** — invited talk. Melbourne, Australia.
+
+## Recurring international meetings
+
+- **Intelligent Systems for Molecular Biology (ISMB)**
+- **Society for Molecular Biology and Evolution (SMBE)** annual meeting
+- **American Society of Human Genetics (ASHG)** annual meeting
+
+[Further conference talks and posters to be added.]

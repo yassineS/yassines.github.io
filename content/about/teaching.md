@@ -1,6 +1,6 @@
 ---
 title: Teaching and Capacity Building
-weight: 3
+weight: 5
 toc: true
 sidebar:
   open: true
@@ -41,12 +41,21 @@ I am actively involved in teaching and collaborative research in genomics educat
 
 ## Mentorship and Supervision
 
-- Supervising three PhD candidates, one as primary supervisor (awaiting commencement date).
-- Supervised four PhDs to completion, three graduated with high distinctions and dean’s commendation.
-- Supervised one master's student to completion with high distinction.
-- Supervised one honours student who completed with high distinction.
-- Regularly supervise undergraduate placements.
+### Current
+
+- Three PhD candidates (one as primary supervisor; commencement date pending). [Names and projects to be added.]
+- Regular undergraduate placements.
+
+### Completed
+
+- Four PhDs (three graduated with high distinctions and dean's commendation). [Names, thesis titles, and graduation years to be added.]
+- One Master's student (high distinction). [Name and project to be added.]
+- One Honours student (high distinction). [Name and project to be added.]
 
 ## Workshops and Training
 
-Since 2012, I have co-organised over 25 face-to-face bioinformatics, genomics, and population genomics workshops in North America (Harvard Medical School), Africa (Pan-African Bioinformatics Network-H3AbioNet, H3Africa), Australia (e.g. Australian Centre for Ancient DNA, Black Ochre Data Labs), and Asia (Indonesia and China). I contributed to the organisation and coordination of an additional 20 online seminars.
+Since 2012, I have co-organised over 25 face-to-face bioinformatics, genomics, and population genomics workshops in North America (Harvard Medical School), Africa (Pan-African Bioinformatics Network — H3AbioNet, H3Africa), Australia (e.g. Australian Centre for Ancient DNA, Black Ochre Data Labs), and Asia (Indonesia and China). I have also contributed to the organisation and coordination of an additional 20 online seminars.
+
+### Selected workshops
+
+[Representative workshop list with year, host institution, and topic to be added.]

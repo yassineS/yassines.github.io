@@ -24,7 +24,14 @@ sidebar:
 - The research resulted in two high-profile manuscripts published in Nature Ecology & Evolution and the Proceedings of the National Academy of Sciences of the United States of America.
 
 ### 2014-2015: Research and Teaching Assistant, Harvard University
+- Fulbright scholar at the Department of Biomedical Informatics (DBMI), Harvard Medical School.
 - Supported primary instructors to develop course content.
 - Set up the cloud-computing-based computational environment.
 - Held office hours on behalf of the primary instructors.
 - Taught the hands-on (practicum) sessions.
+
+### 2013-2014: Teaching Assistant and Researcher, Mohammed V University, Morocco
+- Primary instructor for *Introduction to Programming and Bioinformatics* (MO2 postgraduate course): programming, bash, quality control, and data processing.
+- Conducted bioinformatics research alongside teaching duties.
+
+For details of grants and funding awards held in these roles, see [Funding](../funding).

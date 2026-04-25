@@ -8,9 +8,15 @@ Personal academic website for Yassine Souilmi, built with **Hugo** using the **h
 
 ## Conventions
 
-- Use **Australian/UK English** in all content, including titles, body copy, and code identifiers.
-- Preserve existing code and logic when editing — make minimal changes.
-- Be concise.
+- IMPORTANT: Use **Australian/UK English** in all content, including titles, body copy, and code identifiers.
+- IMPORTANT: Preserve existing code and logic when editing — make minimal and incremental changes, unless necessary.
+- IMPORTANT: Be concise.
+- IMPORTANT: When not writing code, do not act as a coding agent, act as a writer with style and character.
+
+When writing code:
+- IMPORTANT: Try to preserve the original code and the logic of the original code as much as possible.
+- IMPORTANT: Be concise, unless asked otherwise.
+- IMPORTANT: Don't co-author commits.
 
 ## Content layout
 

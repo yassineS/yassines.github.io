@@ -1,45 +1,54 @@
 ---
 title: Software
-weight: 5
+weight: 8
 # layout: docs
 sidebar:
   open: true
 ---
 
+A selection of open-source software I have led, contributed to, or co-released alongside collaborators.
+
 ## PolyLinkR
 
-Prototype R package for gene-based pathway enrichment. A new modern and more efficient version is in the works by Raymond Tobler.
+Prototype R package for gene-based pathway enrichment analysis, with explicit support for linkage disequilibrium between adjacent loci within pathways. Useful as evidence for polygenic selection when paired with selection-scan output (e.g. SweepFinder2). A modern and more efficient successor is in development by Raymond Tobler.
 
-**Code:** [https://github.com/ACAD-UofA/PolyLink](https://github.com/ACAD-UofA/PolyLink)
-**Preprint:** [https://arxiv.org/abs/2004.03224](https://arxiv.org/abs/2004.03224)
+**Code:** [github.com/ACAD-UofA/PolyLink](https://github.com/ACAD-UofA/PolyLink)
+**Preprint:** [arxiv.org/abs/2004.03224](https://arxiv.org/abs/2004.03224)
+
+## taxonomicfiltering
+
+Workflow that uses Kraken2 metagenomic classification to filter contaminating sequences *before* mapping in ancient DNA pipelines. Up to ~94% reduction in mapping runtime with negligible loss of endogenous data; usable on personal machines. Released alongside Ravishankar et al., *Briefings in Bioinformatics* 26, bbae646 (2024).
+
+**Code:** [github.com/shyama-mama/taxonomicfiltering](https://github.com/shyama-mama/taxonomicfiltering)
+
+## cellular-constraint
+
+Analysis code for the conserved facultative heterochromatin study identifying disease regulatory sequences. Released alongside Sinniah et al., *Nucleic Acids Research* 53(20) (2025).
+
+**Code:** [github.com/enakshi-sinniah/cellular-constraint](https://github.com/enakshi-sinniah/cellular-constraint)
+
+## Adelaide Open Food Map
+
+Interactive ML-driven map of Adelaide eateries that ranks "underrated" venues by combining Google Maps ratings with review counts. A side project, building on initial work by Lauren Leek.
+
+**Live tool:** [ysouilmi.com/adelaide_open_food_map](https://www.ysouilmi.com/adelaide_open_food_map/)
+**Code:** [github.com/yassineS/adelaide_open_food_map](https://github.com/yassineS/adelaide_open_food_map)
 
 ## COSMOS
 
 {{< callout emoji="⚠︎" >}}
-  The project is no longer maintained. I recommend using [Nextflow](https://www.nextflow.io/) for your bioinformatics pipelines.
+This project is no longer actively maintained. For new pipeline work I recommend [Nextflow](https://www.nextflow.io/).
 {{< /callout >}}
 
-Cosmos is a python library for creating scientific pipelines that run on a distributed computing cluster. It is primarily designed and used for bioinformatics pipelines, but is general enough for any type of distributed computing workflow and is also used in fields such as image processing. Cosmos provides a simple api to specify any job DAG using simple python code making it extremely flexible and inuitive - you do not specify your DAG using json, CWL, groovy, or some other domain specific language.
+COSMOS is a Python library for building scientific pipelines that run on distributed computing clusters. It was originally designed for bioinformatics workflows but is general enough for any DAG-based distributed work, including image processing. The API uses plain Python rather than a domain-specific language, which I still consider a strength.
 
-![cosmos2 web interface](https://raw.githubusercontent.com/Mizzou-CBMI/COSMOS2/master/docs/source/_static/imgs/web_interface.png)
+COSMOS was first published as an Application Note in [*Bioinformatics*](http://bioinformatics.oxfordjournals.org/content/early/2014/06/29/bioinformatics.btu385). Since then it has been re-written and open-sourced through a collaboration between The Lab for Personalized Medicine at Harvard Medical School, the [Wall Lab at Stanford University](https://wall-lab.stanford.edu/), and [Invitae](http://invitae.com/), where it ran in production processing hundreds of thousands of clinical samples.
 
-Cosmos was published as an Application Note in the journal [Bioinformatics](http://bioinformatics.oxfordjournals.org/), but has evolved a lot since its original inception. If you use Cosmos for research, please cite its [manuscript](http://bioinformatics.oxfordjournals.org/content/early/2014/06/29/bioinformatics.btu385).
+**Code:** [github.com/Mizzou-CBMI/COSMOS2](https://github.com/Mizzou-CBMI/COSMOS2)
+**Documentation:** [mizzou-cbmi.github.io/COSMOS2](https://mizzou-cbmi.github.io/COSMOS2/)
 
-Since the original publication, it has been re-written and open-sourced by the original author, in a collaboration between The Lab for Personalized Medicine at Harvard Medical School, the [Wall Lab at Stanford University](https://wall-lab.stanford.edu/), and [Invitae](http://invitae.com/). Invitae is a leading clinical genetic sequencing diagnostics laboratory where Cosmos is deployed in production and has processed hundreds of thousands of samples. It is also used by various research groups around the world; if you use it for cool stuff please let us know!
+### Pipelines built on COSMOS
 
-### Features
-
-- Simple API for job DAG specification
-- Flexibility for various workflows
-- Suitable for bioinformatics and image processing
-
-**Code**: [https://github.com/Mizzou-CBMI/COSMOS2](https://github.com/Mizzou-CBMI/COSMOS2)
-**Documentation**: [https://mizzou-cbmi.github.io/COSMOS2/](https://mizzou-cbmi.github.io/COSMOS2/)
-
-### Pipelines
-
-Alongside the library, the team has built a number of bioinformatics pipelines using the library. These include:
-
-- GenomeKey - A GATK best practices variant calling pipeline.
-- PV-Key - Somatic Tumor/normal variant calling pipeline.
-- MC-Key - Multi-cloud implementation of GenomeKey
+- **GenomeKey** — GATK best-practices variant calling pipeline.
+- **PV-Key** — somatic tumour/normal variant calling pipeline.
+- **MC-Key** — multi-cloud implementation of GenomeKey.

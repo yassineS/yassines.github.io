@@ -1,24 +1,27 @@
 ---
 title: Other Outputs
-weight: 7
+weight: 12
 sidebar:
   open: true
 ---
 
-Other non-standard scientific outputs include:
+Non-standard scientific outputs: stand-alone databases and reagents released independently of journal publications.
 
 ## Database
 
-The University of Adelaide 2017, ’Online Ancient Genome Repository’. doi: [https://doi.org/10.4225/55/59ae2d4038294](https://doi.org/10.4225/55/59ae2d4038294)
+### Online Ancient Genome Repository (OAGR)
+
+{{< callout emoji="⚠︎" >}}
+OAGR has been decommissioned. Records remain accessible via the DOI below for historical reference.
+{{< /callout >}}
+
+The University of Adelaide, 2017 — Online Ancient Genome Repository.
+DOI: [10.4225/55/59ae2d4038294](https://doi.org/10.4225/55/59ae2d4038294)
 
 ## DNA capture probes
 
-myBaits Expert Human Aﬃnities - Daicel Arbor Biosciences, 2021. URL: [https://arborbiosci.com/genomics/targeted-sequencing/mybaits/mybaits-expert/mybaits-expert-human-aﬃnities/](https://arborbiosci.com/genomics/targeted-sequencing/mybaits/mybaits-expert/mybaits-expert-human-aﬃnities/) (accessed 1.5.22).
+### myBaits Expert Human Affinities
 
-## Datasets
+Daicel Arbor Biosciences, 2021. Targeted-enrichment probe panel for human population-genetics applications, co-developed with Daicel Arbor Biosciences.
 
-### Ancient Dingo Genomes
-
-### OOA Cold-Adaptation Genes
-
-### Selected Corona-Viruses VIPs
+URL: [arborbiosci.com/genomics/targeted-sequencing/mybaits/mybaits-expert/mybaits-expert-human-affinities](https://arborbiosci.com/genomics/targeted-sequencing/mybaits/mybaits-expert/mybaits-expert-human-affinities/)
