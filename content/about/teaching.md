@@ -1,6 +1,6 @@
 ---
 title: Teaching and Capacity Building
-weight: 5
+weight: 6
 toc: true
 sidebar:
   open: true

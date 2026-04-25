@@ -1,6 +1,6 @@
 ---
 title: Awards and Honours
-weight: 10
+weight: 11
 sidebar:
   open: true
 ---

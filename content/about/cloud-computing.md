@@ -1,6 +1,6 @@
 ---
 title: Cloud Computing in Research
-weight: 7
+weight: 8
 sidebar:
   open: true
 ---

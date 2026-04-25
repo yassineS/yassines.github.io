@@ -1,6 +1,6 @@
 ---
 title: Research Outputs
-weight: 11
+weight: 12
 sidebar:
   open: true
 ---

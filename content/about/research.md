@@ -1,6 +1,6 @@
 ---
 title: Research Interests
-weight: 6
+weight: 7
 sidebar:
   open: true
 ---

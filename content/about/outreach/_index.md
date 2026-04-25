@@ -1,6 +1,6 @@
 ---
 title: Professional, Public, and Media Outreach
-weight: 4
+weight: 5
 sidebar:
   open: true
 ---

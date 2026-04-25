@@ -1,6 +1,6 @@
 ---
 title: Funding and Grants
-weight: 9
+weight: 10
 sidebar:
   open: true
 ---

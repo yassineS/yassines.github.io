@@ -7,6 +7,8 @@ sidebar:
 
 I provide advisory and consulting services to government agencies and research bodies on applied genomics, bioinformatics, and cloud-backed analysis pipelines. Engagements typically combine technical design, capability assessment, and translation between research methodology and operational deployment.
 
+For evidence of broader research uptake — including media reach, policy citations, and tier-1 outlet coverage — see [Research Impact](/about/impact).
+
 ## Centre for Invasive Species Solutions
 
 Advisory work on genomics and bioinformatics for invasive-species management.
