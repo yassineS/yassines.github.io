@@ -4,6 +4,7 @@
 # dependencies = [
 #   "pandas>=2.0",
 #   "matplotlib>=3.7",
+#   "adjustText>=1.0",
 # ]
 # ///
 """Aggregate Altmetric exports into summary CSVs and impact-page SVG plots.
@@ -34,6 +35,7 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import pandas as pd
+from adjustText import adjust_text
 
 # Marquee outlet keywords mapped to a quality tier. Order matters: first match wins.
 TIER_RULES: list[tuple[str, list[str]]] = [
@@ -330,16 +332,26 @@ def plot_engagement(papers: pd.DataFrame, out_path: Path) -> None:
     ax.grid(True, color="#dddddd", linewidth=0.6, which="both", zorder=0)
     ax.set_axisbelow(True)
 
-    for _, row in df.iterrows():
-        ax.annotate(
+    texts = [
+        ax.text(
+            row["publication_date"],
+            row["altmetric_score"],
             row["label"],
-            xy=(row["publication_date"], row["altmetric_score"]),
-            xytext=(int(row["label_dx"]), int(row["label_dy"])),
-            textcoords="offset points",
             fontsize=8,
             color="#333333",
-            ha="left" if int(row["label_dx"]) >= 0 else "right",
         )
+        for _, row in df.iterrows()
+    ]
+    adjust_text(
+        texts,
+        ax=ax,
+        arrowprops=dict(arrowstyle="-", color="#888888", lw=0.6, shrinkA=2, shrinkB=4),
+        expand_text=(1.15, 1.4),
+        expand_points=(1.4, 1.6),
+        force_text=(0.4, 0.6),
+        force_points=(0.3, 0.5),
+        only_move={"text": "xy"},
+    )
 
     _add_panel_footer(
         fig, ax,

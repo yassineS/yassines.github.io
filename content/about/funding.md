@@ -5,25 +5,42 @@ sidebar:
   open: true
 ---
 
-A summary of competitive grants on which I have served as Chief Investigator or contributed substantively. Project ideas and pilot work generated during my ARC fellowships have so far enabled the awards listed below.
+Competitive grants on which I have served as Chief Investigator, named investigator, or substantive contributor. Values are in Australian dollars unless noted.
 
-## Held / contributed to
+## Active and recent grants
 
-### NHMRC Ideas Grant — $2.5M
+### Medical Research Future Fund — Genomics Health Futures Mission (2025–2030)
 
-[Title, scheme year, and role to be added.]
+*Delivering benefit for all Australians in the new era of complete genomics.*
+**MRF2041648** · **AUD 3,982,928.83**
 
-### MRFF Genomics Health Futures Mission — $1M
+### Medical Research Future Fund — Genomics Health Futures Mission (2022–2027)
 
-[Title, scheme year, and role to be added.]
+*Pathways to benefit for Indigenous Australians in Genomic Medicine.*
+**MRF2016124** · **AUD 4,986,948.70**
 
-### MRFF Early to Mid-Career Researchers (2024 round) — $5M
+### Australian Research Council — Australian Laureate Fellowship
 
-Led by the Garvan Institute. [Title and role to be added.]
+*An integrated molecular approach to human evolution.*
+**FL140100112** · listed as a current investigator (FA). Current funding **AUD 2,778,618.00**.
 
-[Further awards, fellowships, and seed grants to be added.]
+### Medical Research Future Fund — Genomics Health Futures Mission (2022–2024)
 
-## Personal fellowships and salary support
+*Developing a long-read nanopore sequencing platform for Indigenous genomics.*
+**MRF2016008** · **AUD 986,060.00**.
+
+### Australian Academy of Science — Theo Murphy Initiative (2023–2024)
+
+*Indigenous Genomics and Responsible Research: Bridging the Knowledge Gap through a Massive Open Online Course.*
+**AUD 60,332**.
+
+## Training and personal fellowships
+
+### Fulbright Joint Supervision Doctoral Grant
+
+Joint doctoral supervision between Mohammed V University, Rabat, and Harvard University / Harvard Medical School. Approximately **USD 45,000**. Underpinned my Fulbright training period at the [Department of Biomedical Informatics, Harvard Medical School](../education).
+
+## Personal salary support
 
 - **NHMRC Grant-Funded Researcher B**, University of Adelaide, 2022–present.
 - **ARC Grant-Funded Researcher (A)**, University of Adelaide, 2016–2022.
