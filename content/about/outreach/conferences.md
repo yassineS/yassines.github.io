@@ -6,7 +6,7 @@ sidebar:
   open: true
 ---
 
-Talks and posters at international and regional scientific meetings.
+Featured talks and posters at international and regional scientific meetings.
 
 ## 2025
 
@@ -14,6 +14,7 @@ Talks and posters at international and regional scientific meetings.
 
 ## 2019
 
+- **International Society for Biological and Environmental Repositories (ISBER) Annual Meeting & Exhibits** — led a round table. Shanghai, China, 7–10 May 2019.
 - **International Society on Thrombosis and Haemostasis (ISTH) Congress** — invited talk. Melbourne, Australia.
 
 ## Recurring international meetings
@@ -21,5 +22,3 @@ Talks and posters at international and regional scientific meetings.
 - **Intelligent Systems for Molecular Biology (ISMB)**
 - **Society for Molecular Biology and Evolution (SMBE)** annual meeting
 - **American Society of Human Genetics (ASHG)** annual meeting
-
-[Further conference talks and posters to be added.]

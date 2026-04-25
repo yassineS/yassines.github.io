@@ -9,10 +9,10 @@ Competitive grants on which I have served as Chief Investigator, named investiga
 
 ## Active and recent grants
 
-### Medical Research Future Fund — Genomics Health Futures Mission (2025–2030)
+### Medical Research Future Fund — Early to Mid-Career Researchers (2025–2030)
 
 *Delivering benefit for all Australians in the new era of complete genomics.*
-**MRF2041648** · **AUD 3,982,928.83**
+**MRF2041648** · **AUD 4,951,985.54**
 
 ### Medical Research Future Fund — Genomics Health Futures Mission (2022–2027)
 

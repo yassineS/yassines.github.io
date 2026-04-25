@@ -6,7 +6,7 @@ sidebar:
   open: true
 ---
 
-Selected invited departmental seminars, institutional talks, and keynotes. The full record across more than twenty invited talks is being progressively compiled here.
+Featured invited departmental seminars, institutional talks, and keynotes.
 
 ## 2025
 
@@ -22,13 +22,6 @@ Selected invited departmental seminars, institutional talks, and keynotes. The f
   - **Location:** Brisbane, Queensland, Australia
   - **Date:** 4 December 2024
 
-## Selected earlier invitations
+## Earlier highlights
 
-- **International Society for Biological and Environmental Repositories (ISBER) Annual Meeting & Exhibits**
-  - **Location:** Shanghai, China
-  - **Date:** [to be added]
-- **International Society on Thrombosis and Haemostasis (ISTH) Congress**
-  - **Location:** Melbourne, Australia
-  - **Date:** 2019
-
-[Further invited talks to be added.]
+- **International Society on Thrombosis and Haemostasis (ISTH) Congress** — Melbourne, Australia, 2019.
