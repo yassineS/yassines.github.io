@@ -29,11 +29,11 @@ For per-paper coverage in full, see [Media Outreach](/about/outreach/media).
 
 ## Geographic and linguistic breadth
 
-![News mentions by country (top 15)](/images/impact/mentions-by-country.svg)
+![News mentions by country (left, top 15) and by language of the press outlet (right, top 12)](/images/impact/geographic-linguistic-breadth.svg)
 
-Coverage tracks the English-speaking press first — the United States (234 mentions), United Kingdom (143), Australia (139), India (74), New Zealand (20), Canada (5) — but extends meaningfully into non-English-language press: Spain (20), Brazil (20), Germany (27), France (17), Russia (13), Italy (8), Portugal (6), Argentina (5), Austria (5), and a long tail through Japan, China, Indonesia, the Philippines, the United Arab Emirates, Israel, Mexico, and others.
+The English-speaking press dominates volume — the United States (234 mentions), United Kingdom (143), Australia (139), India (74), New Zealand, Canada, Ireland, Singapore — accounting for roughly 624 of the ~800 tracked mentions. The remainder is distributed across **26 languages**: German (37), Spanish (28), Portuguese (26), Russian (22), French (19), Italian (8), Arabic, Polish, Chinese, Finnish, Greek, Hebrew, Dutch, and a long tail.
 
-Specific non-English outlets that have covered my work include *Der Spiegel* (Germany), *La Vanguardia* and *ABC* (Spain), *National Geographic en Español* and *National Geographic NL*, *Le Figaro* (France), and the *Finnish Prime Minister's Office* COVID-19 research review.
+Non-English outlets that have covered my work include *Der Spiegel* (Germany), *La Vanguardia* and *ABC* (Spain), *National Geographic en Español* and *National Geographic NL*, *Le Figaro* (France), and the *Finnish Prime Minister's Office* COVID-19 research review.
 
 ## Engagement over time
 
