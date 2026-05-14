@@ -28,29 +28,29 @@ The approach is also robust to data type. We ran 347 individuals — 299 typed o
 
 ## Key findings
 
-{{< image-text-wrap src="fig1B-ancestry-map.png" alt="Interpolated map of dingo ancestry across Australia" width="320px" gap="25px" >}}
 **Dingo ancestry is high almost everywhere, but European dog ancestry is regional rather than continental.** Across the country, free-roaming canines average 88.3% dingo ancestry — the "wild dog" label is, in genetic terms, a misnomer for most of the animals it gets applied to. European dog ancestry is highest in the south-east (Victoria, New South Wales, the Alps), lowest in the remote north and west, and tracks human population density: the more people, the more dog ancestry. The Dingo Fence shows up as a sharp discontinuity, with significantly higher admixture on its southern, agricultural side.
-{{< /image-text-wrap >}}
 
-{{< image-text-wrap src="fig1E-timing.png" alt="Timing of admixture across populations" width="300px" gap="25px" >}}
+![Interpolated map of dingo ancestry across Australia](fig1B-ancestry-map.png)
+
 **Admixture is largely historical.** Gene flow from European dogs peaked roughly 20–25 generations ago, around the **1950s–1960s** (dashed line at ~60 years ago) — coinciding with rapid post-war agricultural expansion in south-eastern Australia. It is not an ongoing avalanche; first-generation hybrids are rare. Where unadmixed mates remain available, ancestry can recover over a few generations.
-{{< /image-text-wrap >}}
 
-![UMAP of dingo populations beside their geographic distribution](fig2BC-populations.png)
+![Timing of admixture across populations](fig1E-timing.png)
 
 **Eight genetically distinct dingo populations, two of them new.** A UMAP of dingo-ancestry segments (left) resolves eight clear clusters; mapping those clusters back onto the continent (right) shows where each lives. Earlier work resolved five subgroups (West, East, Alpine, Mallee, Captive) and the isolated K'gari (Fraser Island) population. After masking European dog ancestry, we additionally identify a **Northern** and a **Central** cluster, the latter sitting at the junction of the West, North and East lineages and acting as a zone of high gene flow.
 
-{{< image-text-wrap src="fig2A-ancient-lineages.png" alt="Affinity to Nullarbor and Curracurrang ancient lineages" width="320px" gap="25px" >}}
-**Ancient lineages persist.** Modern populations retain deep affinities to two ancestral lineages — **Nullarbor** (western dingoes, in red) and **Curracurrang** (eastern dingoes, in purple) — divisions that predate European contact by thousands of years and reflect biogeographic barriers like the Great Dividing Range and the Murray–Darling system.
-{{< /image-text-wrap >}}
+![UMAP of dingo populations beside their geographic distribution](fig2BC-populations.png)
 
-![Ancestral dingo heterozygosity north vs south of the Fence and across the continent](fig3BC-diversity.png)
+**Ancient lineages persist.** Modern populations retain deep affinities to two ancestral lineages — **Nullarbor** (western dingoes, in red) and **Curracurrang** (eastern dingoes, in purple) — divisions that predate European contact by thousands of years and reflect biogeographic barriers like the Great Dividing Range and the Murray–Darling system.
+
+![Affinity to Nullarbor and Curracurrang ancient lineages](fig2A-ancient-lineages.png)
 
 **South-eastern dingoes are diversity-poor once dog ancestry is removed.** With European dog DNA included, southern populations look as diverse as northern ones. Mask that DNA out (left) and the picture flips: ancestral dingo heterozygosity is significantly lower in the south (*p* = 8.3 × 10⁻⁶). Mapped across the continent (right), the lowest ancestral diversity sits in the south-east and around the Mallee (Big Desert) of north-western Victoria. Dog admixture has inflated overall heterozygosity but eroded the lineage-specific variation that makes south-eastern dingoes evolutionarily distinct.
 
-{{< image-text-wrap src="figS4-marker-reduction.png" alt="Consistency of qpAdm dingo ancestry estimates from 1K to 100K SNPs versus the full 1.2M-SNP reference" width="360px" gap="25px" >}}
-**Affordable testing changes what management can do.** Supplementary Figure S4 (left) compares dingo-ancestry estimates from reduced marker panels — 1K, 5K, 10K, 50K and 100K SNPs — against the full 1.2 million-SNP reference. From around **10,000 SNPs** onwards, the points line up tightly on the 1:1 diagonal across all populations. Because qpAdm works reliably with low-pass shotgun data and a few thousand well-chosen markers, wildlife agencies can now screen large numbers of animals without a whole-genome budget for each one.
-{{< /image-text-wrap >}}
+![Ancestral dingo heterozygosity north vs south of the Fence and across the continent](fig3BC-diversity.png)
+
+**Affordable testing changes what management can do.** Supplementary Figure S4 compares dingo-ancestry estimates from reduced marker panels — 1K, 5K, 10K, 50K and 100K SNPs — against the full 1.2 million-SNP reference. From around **10,000 SNPs** onwards, the points line up tightly on the 1:1 diagonal across all populations. Because qpAdm works reliably with low-pass shotgun data and a few thousand well-chosen markers, wildlife agencies can now screen large numbers of animals without a whole-genome budget for each one.
+
+![Consistency of qpAdm dingo ancestry estimates from 1K to 100K SNPs versus the full 1.2M-SNP reference](figS4-marker-reduction.png)
 
 ## Ancestry by population
 
