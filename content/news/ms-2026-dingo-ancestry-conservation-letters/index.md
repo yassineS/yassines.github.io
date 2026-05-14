@@ -1,5 +1,5 @@
 ---
-title: "New Publication: Most Australian 'Wild Dogs' Are Predominantly Dingoes"
+title: "New Publication: Paleogenomics-Informed Inferences of European Dog Admixture Enables Scalable Dingo Conservation"
 date: 2026-05-14
 draft: false
 ---
