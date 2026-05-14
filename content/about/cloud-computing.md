@@ -40,9 +40,9 @@ For full course details, see [Teaching](../teaching).
 
 ## Institutional adoption — Adelaide University
 
-I played a key role in the adoption of AWS at **Adelaide University** (formerly the University of Adelaide), through the **Ronin** research-cloud platform. This involved working with researchers, IT, and procurement to translate early-adopter genomic-cloud experience into an institutionally supported pathway for research groups across the university.
+I played a key role in the adoption of AWS at **Adelaide University** (formerly the University of Adelaide) through the **RONIN** research-cloud platform — translating early-adopter genomic-cloud experience into an institutionally supported pathway for research groups across the university, in partnership with researchers, IT, and procurement.
 
-[Specific scope, dates, and counterparts to be added.]
+A concrete downstream outcome: my PhD student **Shyamsundar Ravishankar** was sponsored by RONIN to present *"Scalable genomic data processing on cloud"* at the **Australasian Genomic Technologies Association (AGTA) 2024 Annual Conference**, where his talk on cloud-backed ancient DNA workflows won the **best oral student presentation award** ([post](https://www.linkedin.com/posts/byron-low_dna-nextflow-research-activity-7261586292860178432-W2Oo)).
 
 ## Applied and advisory work
 
