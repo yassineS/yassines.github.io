@@ -83,7 +83,9 @@ We also see paleogenomes themselves as the methodological lesson here. Ancient D
 
 Ravishankar S, Nguyen NC, Taufik L, Michielsen NM, Bergström A, Tobler R, Fordham D, Brüniche-Olsen A, Rahbek C, Llamas B, Souilmi Y. (2026). **Paleogenomics-Informed Inferences of European Dog Admixture Enables Scalable Dingo Conservation.** *Conservation Letters*. DOI: [10.1111/conl.70052](https://doi.org/10.1111/conl.70052)
 
-**[📄 Read the full open-access paper](https://doi.org/10.1111/conl.70052)** | **[📰 Read the *Conversation* piece](https://theconversation.com/)**
+**[📄 Read the full open-access paper](https://doi.org/10.1111/conl.70052)** | **[📰 Read the *Conversation* piece](https://theconversation.com/new-dna-evidence-shows-dingoes-are-almost-90-pure-and-fall-into-eight-distinct-groups-282381)** **[📰 Read the Press Release](https://adelaide.edu.au/about/news/2026/most-australian--wild-dogs--are-predominantly-dingoes/)**
+
+
 
 **Journal**: *Conservation Letters*
 **Published**: 14 May 2026
