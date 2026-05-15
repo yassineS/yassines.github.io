@@ -79,6 +79,10 @@ A predominantly dingo individual is not a stray domestic dog, and management pol
 
 We also see paleogenomes themselves as the methodological lesson here. Ancient DNA is sometimes treated as a curiosity —interesting for telling stories about the past- but tangential to applied biology. This study shows the opposite. By providing an unadmixed baseline that contemporary populations can no longer supply, paleogenomes turned a long-running disagreement about a living species into a tractable conservation question.
 
+## Acknowledgments
+
+I'd like to acknowledge the hard work by the two first authors Shyam and Nhi, all the colleagues who have informed this work directly or through prior publications, all the people who have contributed data and methods.
+
 ## Citation
 
 Ravishankar S, Nguyen NC, Taufik L, Michielsen NM, Bergström A, Tobler R, Fordham D, Brüniche-Olsen A, Rahbek C, Llamas B, Souilmi Y. (2026). **Paleogenomics-Informed Inferences of European Dog Admixture Enables Scalable Dingo Conservation.** *Conservation Letters*. DOI: [10.1111/conl.70052](https://doi.org/10.1111/conl.70052)
