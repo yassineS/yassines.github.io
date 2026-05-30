@@ -34,7 +34,7 @@ For commentary I have written myself for a general audience, see the four explai
 
 ### *Cooper et al., Science, 2021* — global environmental crisis 42,000 years ago
 
-[Altmetric Attention Score: 2,022 across 236 mentions.] Selected coverage:
+[Altmetric Attention Score: 2,022 across 236 mentions.] An animated explainer of the paper, [narrated by Stephen Fry](https://www.youtube.com/watch?v=Qs1dLe3GsQY), accompanied the release. Selected coverage:
 
 - *The New York Times* — *[A Hitchhiker's Guide to an Ancient Geomagnetic Disruption](https://www.nytimes.com/2021/02/18/science/laschamp-earth-magnetic-climate.html)* — 18 February 2021.
 - *The Guardian* — 18 February 2021.
@@ -60,6 +60,10 @@ For commentary I have written myself for a general audience, see the four explai
 - *Cosmos Magazine* — *Ancient DNA shows modern dingoes and dog breeds share little ancestry* — 8 July 2024.
 - *Brisbane Times* — *Bone found at Balmoral beach reveals origins of Australia's apex predator* — 9 July 2024.
 - *The Canberra Times* — 9 July 2024.
+
+### *Ravishankar et al., Conservation Letters, 2026* — dingo ancestry and conservation
+
+Coverage included *The Conversation*, a University of Adelaide press release, and a [First Dog on the Moon cartoon in *The Guardian*](https://www.theguardian.com/commentisfree/picture/2026/may/27/australia-needs-a-national-animal-no-not-the-kangaroo-the-dingo) (27 May 2026) — arguably the truest measure of arrival in the Australian public conversation.
 
 ### *Souilmi et al., Current Biology, 2021* — ancient coronavirus epidemic — *and other papers* — wider syndication
 
