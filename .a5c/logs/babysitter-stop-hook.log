@@ -1,0 +1,7 @@
+[INFO] 2026-06-17T05:56:43.010Z handleHookRunStop started
+[INFO] 2026-06-17T05:56:43.011Z Hook input received
+[INFO] 2026-06-17T05:56:43.011Z [session=e7ae238e-bc96-4db9-a580-c7a119083c33] Session ID: e7ae238e-bc96-4db9-a580-c7a119083c33
+[INFO] 2026-06-17T05:56:43.011Z [session=e7ae238e-bc96-4db9-a580-c7a119083c33] Resolved pluginRoot: /Users/yassinesouilmi/.claude/plugins/cache/a5c-ai/babysitter/4.0.157
+[INFO] 2026-06-17T05:56:43.011Z [session=e7ae238e-bc96-4db9-a580-c7a119083c33] Resolved stateDir: /Users/yassinesouilmi/.a5c/state
+[INFO] 2026-06-17T05:56:43.011Z [session=e7ae238e-bc96-4db9-a580-c7a119083c33] Checking session file at: /Users/yassinesouilmi/.a5c/state/e7ae238e-bc96-4db9-a580-c7a119083c33.md
+[INFO] 2026-06-17T05:56:43.014Z [session=e7ae238e-bc96-4db9-a580-c7a119083c33] No run associated with session — allowing exit
